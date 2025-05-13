@@ -1,12 +1,17 @@
-# Project Name
-This project is ________. (Describe the main goals of the project. Limit to 1-2 sentences)
+# Q-Learning Agent for FrozenLake
 
-## Description
-Optional section to provide a more detailed overview of the project.
+This project implements a Q-Learning agent to solve OpenAI Gym's `FrozenLake-v1` environment using a simple tabular method and epsilon-greedy exploration strategy.
 
-## Get Started
-This section should be used to summarize the project and how to get started after cloning. Once this section 
-is edited, it will show up on the Project Dashboard tab. 
+## Features
 
-If you completely delete this section, the "Get Started" widget will be removed from the Project Dashboard.
+- Tabular Q-learning with dynamic epsilon decay
+- Epsilon-greedy exploration
+- Policy derivation from Q-table
+- Visualization of agent performance
 
+## Requirements
+
+Install dependencies using:
+
+```bash
+pip install -r requirements.txt
